@@ -2,7 +2,7 @@
 
 The app is live at https://carethread-six.vercel.app. Final files are in `final/`:
 
-Latest video revision: `carethread-dynamic-no-voiceover.mp4` — 48 seconds, 1080p/60fps, short main text, continuous animated motion, original 120 BPM music and synchronized sound effects. No narration. The edit kit includes a silent video and separate music/effects tracks for recording your own voiceover. See `video/DYNAMIC-EDIT.md`.
+Latest video revision: `carethread-context-hook-no-voiceover.mp4` — 48 seconds, 1080p/60fps, short main text, continuous animated motion, original 120 BPM music and synchronized sound effects. No narration. The edit kit includes a silent video and separate music/effects tracks for recording your own voiceover. See `video/DYNAMIC-EDIT.md`.
 
 Original delivery:
 
@@ -28,3 +28,5 @@ In `video/`, run `npm ci`, then `node render.mjs` for local Remotion rendering. 
 ## Validation
 
 Production build passed; 80 domain/API/lifecycle tests passed. Public deployment returned HTTP 200; unauthenticated live-token requests remained blocked. Browser checks verified sender clarification and receiver acknowledgment without completing pending work. Desktop 1440 px and mobile 390 px layouts had no horizontal overflow. All eight presentation renders and PDF pages were visually inspected; package/layout/import validation passed. Video preview scenes and encoded contact sheet were inspected; final export has 72-second video and stereo audio, with peak audio at −3.0 dB.
+
+The latest context-focused revision opens with a nurse shift change and an unfinished scan result. `final/carethread-voiceover-script.txt` contains the complete timed creator script. The AHRQ statistic is cited on screen, with the full source link in the script and motion edit notes.

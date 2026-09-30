@@ -1,0 +1,44 @@
+CARETHREAD — CREATOR VOICEOVER
+48 seconds / 1080p / 60 fps
+
+Aim for approximately 150–160 words per minute. Begin conversationally. Pause briefly after the opening question. No recorded voiceover is included in the video.
+
+00–04 seconds
+Your nurse’s shift ends. Your scan result still hasn’t arrived.
+
+04–08 seconds
+Who makes sure the next nurse knows to follow up?
+
+08–12 seconds
+Meet CareThread. AssemblyAI turns spoken handoffs into a shared plan.
+
+12–16 seconds
+Capture what needs doing, who owns it, and by when.
+
+16–20 seconds
+A result still pending gets repeated as normal. Pause.
+
+20–24 seconds
+Clarify: Doctor Lee reviews the result by three p.m.
+
+24–28 seconds
+The next nurse acknowledges the plan. The work stays pending.
+
+28–32 seconds
+Need to check a detail? Go back to its source.
+
+32–36 seconds
+AI suggests updates. Application rules check them before saving.
+
+36–40 seconds
+Eighty automated checks passed, plus one synthetic voice test.
+
+40–44 seconds
+A practice tool for clearer conversations when clinical teams change.
+
+44–48 seconds
+CareThread. Know what’s unfinished. Know who’s following up.
+
+ON-SCREEN STATISTIC
+The 04–08 second scene cites AHRQ’s 2023 research spotlight: nearly one-third of medical errors and adverse events can be tied to miscommunication and care coordination gaps during handoffs and care transitions. This describes the motivating problem, not measured CareThread performance.
+Source: https://digital.ahrq.gov/program-overview/research-stories/improving-safety-postoperative-handoff-communication-telemedicine

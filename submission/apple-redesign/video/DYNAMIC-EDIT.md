@@ -6,17 +6,17 @@
 
 | Time | Main text / scene |
 |---|---|
-| 00–04 | One word changes the handoff. |
-| 04–08 | Keep responsibility in the conversation. |
+| 00–04 | Your nurse’s shift ends; your scan result has not arrived. |
+| 04–08 | Who makes sure it gets checked? AHRQ context statistic. |
 | 08–12 | Speak naturally. |
-| 12–16 | Capture unfinished work. |
-| 16–20 | Catch a changed readback. |
-| 20–24 | Fill the gaps. Keep the context. |
+| 12–16 | What needs doing? Who will do it? |
+| 16–20 | Did the next nurse hear it correctly? |
+| 20–24 | Name the person. Set the time. |
 | 24–28 | Acknowledged. Still pending. |
-| 28–32 | Every detail has a source. |
+| 28–32 | See exactly what was said. |
 | 32–36 | Speech. Planning. Validation. |
 | 36–40 | Built. Tested. Ready to try. |
-| 40–44 | Practice better handoffs. Keep the next step clear. |
+| 40–44 | Practice clearer shift changes. Keep the next step clear. |
 | 44–48 | CareThread closing and app URL. |
 
 All animation is driven by frame numbers: spring entrances, staggered words, camera perspective and drift, waveform movement, cursor paths, UI state changes, source connector drawing, counters, background movement and progress. Transitions use short directional blur/zoom exits and entrances. No recorded webpage, third-party video, sampled music, or voiceover is included.
@@ -30,3 +30,32 @@ From this directory, install the locked packages with `npm ci`. Render with `nod
 The edit kit provides the silent video and separate music-only and sound-effects-only WAV tracks. Place all three at 00:00. Record your voiceover against the timeline above, then lower the music and effects to suit your recording. Both audio tracks are stereo, 48 kHz, 16-bit PCM. Keep all media at the original speed to preserve synchronization.
 
 The app states shown are synthetic interface illustrations; the film is not a live product recording or clinical validation.
+
+
+## Revised creator voiceover
+
+**00–04 seconds:** Your nurse’s shift ends. Your scan result still hasn’t arrived.
+
+**04–08 seconds:** Who makes sure the next nurse knows to follow up?
+
+**08–12 seconds:** Meet CareThread. AssemblyAI turns spoken handoffs into a shared plan.
+
+**12–16 seconds:** Capture what needs doing, who owns it, and by when.
+
+**16–20 seconds:** A result still pending gets repeated as normal. Pause.
+
+**20–24 seconds:** Clarify: Doctor Lee reviews the result by three p.m.
+
+**24–28 seconds:** The next nurse acknowledges the plan. The work stays pending.
+
+**28–32 seconds:** Need to check a detail? Go back to its source.
+
+**32–36 seconds:** AI suggests updates. Application rules check them before saving.
+
+**36–40 seconds:** Eighty automated checks passed, plus one synthetic voice test.
+
+**40–44 seconds:** A practice tool for clearer conversations when clinical teams change.
+
+**44–48 seconds:** CareThread. Know what’s unfinished. Know who’s following up.
+
+The 04–08 second statistic is from [AHRQ’s 2023 research spotlight](https://digital.ahrq.gov/program-overview/research-stories/improving-safety-postoperative-handoff-communication-telemedicine). It motivates the problem and does not establish CareThread efficacy.
