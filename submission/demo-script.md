@@ -1,6 +1,6 @@
 # CareThread narrated presentation
 
-Target: about four minutes, depending on reading pace. AI narration accompanies a labeled synthetic scenario replay. Do not describe this video as a live microphone test.
+A 4:26 presentation with AI narration and a labeled synthetic scenario walkthrough. This video is not a recording of a live microphone session.
 
 ## Slide 1
 
@@ -20,7 +20,7 @@ The key distinction is between accepting a handoff and completing the work. A re
 
 ## Slide 5
 
-AssemblyAI's managed Voice Agent API provides speech input, conversational response and structured tool requests. The browser shows the selected participant role, transcript and source evidence. Application code validates required fields, revisions and state changes. A server route issues temporary connection tokens, keeping the permanent key out of the browser. Audio goes to AssemblyAI. Synthetic records persist in this browser and can be exported. This architecture supports a focused demonstration, not a hospital identity or shared records system.
+AssemblyAI powers speech and planning. Its managed Voice Agent API handles speech input and conversational replies. Each final transcript goes to a server-side LLM Gateway planner, which proposes board changes as structured data. Application code validates sources, required fields and revisions before applying them. Temporary tokens keep the permanent key out of the browser. AssemblyAI processes audio and text. Synthetic records persist in this browser and can be exported. The architecture supports a focused communication simulation.
 
 ## Slide 6
 
@@ -28,7 +28,7 @@ Our starting users are clinical educators and simulation centers. The product hy
 
 ## Slide 7
 
-Validation needs more than one successful scenario. State checks should cover missing owners, missing timing, duplicate calls and stale acceptance. Conversation checks should include legitimate new information and a clean handoff where the agent stays quiet. Live speech needs its own interruption and latency measurements. The slide shows the current recorded validation status. Automated checks can support implementation claims, but they cannot establish real-world clinical reliability or patient benefit.
+Seventy-eight automated checks passed. They cover handoff state, restored records, access controls and planner validation. One synthetic spoken fixture passed the complete speech-to-board path: AssemblyAI transcribed it, the Gateway proposed a task, and the application validated its details. The task stayed pending and unreviewed. AssemblyAI also spoke a request for review. This was generated test audio. Browser microphone-device testing and clinical evaluation remain outstanding. The video itself presents a scripted synthetic walkthrough.
 
 ## Slide 8
 

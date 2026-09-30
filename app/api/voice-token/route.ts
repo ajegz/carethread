@@ -3,6 +3,7 @@ import { timingSafeEqual } from 'node:crypto';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
+export const maxDuration = 20;
 const buckets = new Map<string, { count: number; reset: number }>();
 const headers = { 'Cache-Control': 'no-store, max-age=0' };
 const response = (body: object, status = 200) => NextResponse.json(body, { status, headers });

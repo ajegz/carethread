@@ -1,0 +1,77 @@
+{
+  "passed": true,
+  "analysisMs": 1714,
+  "repliesAfterInput": 1,
+  "outputAudioFrames": 1048,
+  "seconds": 27.966381,
+  "item": {
+    "id": "item_1",
+    "patientId": "demo-17",
+    "sourceTurnIds": [
+      "msg_b868df9cc83f4ad38c0804a8a77645f2"
+    ],
+    "revision": 1,
+    "task": "Review the scan result",
+    "owner": "Dr Lee",
+    "due": "3 PM",
+    "condition": "Discharge is waiting for that review",
+    "uncertainty": "Scan result is still pending",
+    "taskStatus": "pending",
+    "reviewed": false,
+    "acceptance": null,
+    "completion": null,
+    "createdAt": "2026-09-30T08:56:36.503Z",
+    "updatedAt": "2026-09-30T08:56:36.503Z"
+  },
+  "events": [
+    {
+      "ms": 1607,
+      "event": "session.ready"
+    },
+    {
+      "ms": 5228,
+      "event": "transcript.agent",
+      "text": "CareThread is ready. Tell me what is still pending for this fictional patient."
+    },
+    {
+      "ms": 5728,
+      "event": "synthetic_audio.start",
+      "seconds": 9.417166666666667
+    },
+    {
+      "ms": 17150,
+      "event": "transcript.user",
+      "text": "For our fictional patient, the scan result is still pending. Dr Lee will review it by 3 PM. Discharge is waiting for that review. Please capture that pending task."
+    },
+    {
+      "ms": 18877,
+      "event": "validated_board",
+      "analysisMs": 1714,
+      "item": {
+        "id": "item_1",
+        "patientId": "demo-17",
+        "sourceTurnIds": [
+          "msg_b868df9cc83f4ad38c0804a8a77645f2"
+        ],
+        "revision": 1,
+        "task": "Review the scan result",
+        "owner": "Dr Lee",
+        "due": "3 PM",
+        "condition": "Discharge is waiting for that review",
+        "uncertainty": "Scan result is still pending",
+        "taskStatus": "pending",
+        "reviewed": false,
+        "acceptance": null,
+        "completion": null,
+        "createdAt": "2026-09-30T08:56:36.503Z",
+        "updatedAt": "2026-09-30T08:56:36.503Z"
+      },
+      "question": "Please review the captured plan and explicitly confirm it, or state a correction."
+    },
+    {
+      "ms": 24309,
+      "event": "transcript.agent",
+      "text": "I have noted the pending scan result review. To ensure accuracy, please review the captured plan on your screen."
+    }
+  ]
+}

@@ -70,7 +70,7 @@ export default function Home() {
     return update.result;
   }, [commit]);
 
-  const voice = useVoice({ session, role, onTurn, onTool });
+  const voice = useVoice({ session, getSession: () => sessionRef.current, role, onTurn, onTool });
   const voiceActive = ['connecting', 'listening', 'speaking'].includes(voice.status);
   const summary = summarize(session);
   const steps = getReplaySteps(session);

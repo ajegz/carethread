@@ -1,0 +1,13 @@
+.env*
+.git
+.next
+node_modules
+research
+qa
+submission
+scripts
+tests
+ASSEMBLYAI-HACKATHON-PLAN.md
+BUILD-AND-DELIVERY-PLAN.md
+CLINICAL-VOICE-PROJECT-BRIEF.md
+*.tsbuildinfo
