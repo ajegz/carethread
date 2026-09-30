@@ -1,0 +1,11 @@
+CareThread — AssemblyAI Voice Agent Hackathon
+
+App: https://carethread-six.vercel.app
+Repository: https://github.com/ajegz/carethread
+
+Poster: carethread-poster.png
+Editable presentation: carethread-redesigned.pptx
+Presentation PDF: carethread-redesigned.pdf
+Animated film with original music and local narration: carethread-film.mp4
+
+Use synthetic information only. Live voice requires the host-provided access code. Interface scenes in the media are labeled code-rendered illustrations. No clinical efficacy claim or Apple affiliation.

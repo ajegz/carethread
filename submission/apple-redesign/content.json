@@ -1,0 +1,96 @@
+{
+  "project": "CareThread",
+  "poster": {
+    "eyebrow": "AssemblyAI Voice Agent Hackathon",
+    "title": "CareThread",
+    "subtitle": "Clinical handoffs with\nresponsibility intact",
+    "description": "Pending work. Clear ownership. Context preserved.",
+    "scope": "Clinical communication simulation using synthetic data"
+  },
+  "slides": [
+    {
+      "layout": "cover",
+      "title": "CareThread",
+      "subtitle": "Clinical handoffs with\nresponsibility intact",
+      "footer": "A voice-guided communication simulation",
+      "notes": "CareThread is a browser-based clinical communication simulation for the AssemblyAI hackathon. The visual style does not imply Apple sponsorship, Apple integration or a native Apple application. Synthetic data only. No clinical efficacy claim."
+    },
+    {
+      "layout": "comparison",
+      "title": "Uncertainty can disappear in a handoff",
+      "left_label": "Sender",
+      "left": "The scan result is pending.\nDischarge is waiting\nfor the review.",
+      "right_label": "Receiver",
+      "right": "The scan was clear.\nThe patient is ready\nfor discharge.",
+      "takeaway": "A changed statement needs clarification.",
+      "footer": "Fictional example. Clinicians determine what is correct.",
+      "notes": "This is a fictional communication example, not a treatment recommendation. AHRQ TeamSTEPPS handoff guidance motivates retaining uncertainty, contingencies and acknowledged responsibility. It does not validate this software. Sources: https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/handoff.html and https://www.ahrq.gov/teamstepps-program/curriculum/communication/tools/checkback.html"
+    },
+    {
+      "layout": "product",
+      "title": "A shared view of unfinished work",
+      "subtitle": "The task keeps its owner, timing and source statement.",
+      "footer": "Code-rendered interface illustration \u00b7 Fictional patient",
+      "notes": "React/Remotion illustration based on the implemented CareThread UI. It represents a synthetic handoff whose states were verified in the app. It is not a screenshot or live recording. Source statements, roles, revisions and unknown required fields remain reviewable."
+    },
+    {
+      "layout": "states",
+      "title": "Acceptance and completion are separate",
+      "left_label": "Handoff",
+      "left": "Accepted",
+      "left_detail": "The receiver acknowledges\nthe current revision.",
+      "right_label": "Clinical work",
+      "right": "Still pending",
+      "right_detail": "Completion requires a separate\nparticipant report.",
+      "footer": "A substantive correction clears acceptance of the earlier revision.",
+      "notes": "This distinction is implemented in the deterministic state engine. Acknowledgment is not clinical completion. The prototype records participant-reported completion and cannot independently observe physical care. Optional real accepted-state screenshot may replace the native comparison if it supports the final UI design."
+    },
+    {
+      "layout": "architecture",
+      "title": "AssemblyAI powers speech and planning",
+      "columns": [
+        {
+          "title": "Conversation",
+          "body": "Voice Agent API\nSpeech input and spoken replies"
+        },
+        {
+          "title": "Proposed changes",
+          "body": "LLM Gateway\nStructured plans from transcripts"
+        },
+        {
+          "title": "Validated record",
+          "body": "Application rules\nSource checks and revision control"
+        }
+      ],
+      "footer": "Server-held key. Temporary voice tokens. Browser records stay on this device.",
+      "notes": "AssemblyAI managed Voice Agent handles speech and replies with tools: []. Each final participant transcript goes through the server-side AssemblyAI LLM Gateway using qwen3.5-4b-32k-fast. The planner proposes JSON actions; deterministic validation checks sources, role, fields and revisions before application. Audio and text are processed by AssemblyAI. IndexedDB stores synthetic records in the same browser. Sources: https://www.assemblyai.com/docs/voice-agents/voice-agent-api/browser-integration and https://www.assemblyai.com/docs/llm-gateway/quickstart. Implementation sources: lib/voice-config.ts, lib/voice-tools.ts and app/api/analyze/route.ts."
+    },
+    {
+      "layout": "market",
+      "title": "Built for handoff practice",
+      "lead": "Clinical educators\nand simulation centers",
+      "body": "Review omissions and clarifications\nafter a handoff exercise.\n\nAn institution subscription is\na business hypothesis to test.",
+      "footer": "Next step: clinician feedback and a measured usability study.",
+      "notes": "Clinical educators and simulation centers are the initial customer hypothesis, not existing customers. No market-size, revenue, customer-demand or outcome claim. Usability research should measure understanding, missed issues, false alerts and added time. Clinical deployment needs work beyond this prototype."
+    },
+    {
+      "layout": "evidence",
+      "title": "What we verified",
+      "checks": "80",
+      "checks_label": "automated checks passed",
+      "checks_detail": "State, API and lifecycle regressions",
+      "fixture": "1",
+      "fixture_label": "synthetic spoken fixture passed",
+      "fixture_detail": "Speech to a validated pending task",
+      "footer": "Browser microphone-device behavior and clinical efficacy remain unvalidated.",
+      "notes": "Implementation lead reported 80 passing checks: 78 domain/API checks and two voice lifecycle regressions (late events after reset, role change during analysis). Production build passed after the visual redesign and Vercel deployment is ready. Public synthetic-fixture evidence: docs/evaluation/synthetic-voice-result.json in https://github.com/ajegz/carethread. One generated audio fixture correctly preserved a task, owner, time, condition and pending uncertainty as an unreviewed item, followed by a spoken review request. Three separate Gateway cases covered capture, confirmation and acknowledgment; a rate-limited request passed after a spaced retry. Neither the software count nor the single fixture establishes clinical reliability. No latency benchmark or success percentage is claimed."
+    },
+    {
+      "layout": "closing",
+      "title": "CareThread",
+      "subtitle": "The next person knows\nwhat is still unfinished.",
+      "footer": "Synthetic clinical communication simulation",
+      "notes": "Repository: https://github.com/ajegz/carethread. Verified public application: https://carethread-six.vercel.app. No claim of diagnosis, treatment recommendation, discharge authorization, hospital integration or improved patient outcomes."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "ready": true,
+  "reference_note": "Apple-inspired silver, white and blue app redesign, deployed 2026-09-30.",
+  "font_family": "Helvetica Neue",
+  "colors": {
+    "background": "#FFFFFF",
+    "alternate": "#F5F5F7",
+    "ink": "#1D1D1F",
+    "secondary": "#6E6E73",
+    "accent": "#0071E3"
+  },
+  "workspace_capture": "video/out/carethread-interface.png",
+  "accepted_capture": null,
+  "capture_provenance": "Code-rendered interface illustration, authored in React and rendered locally by Remotion. Represents the verified synthetic scenario; not a browser screenshot.",
+  "application_url": "https://carethread-six.vercel.app",
+  "application_url_verified": true,
+  "repository_url": "https://github.com/ajegz/carethread"
+}

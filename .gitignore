@@ -24,3 +24,10 @@ submission/assets/
 *.pcm
 qa/
 submission/*.zip
+submission/apple-redesign/build/
+submission/apple-redesign/previews/
+
+submission/apple-redesign/.build/
+submission/apple-redesign/video/node_modules/
+submission/apple-redesign/video/out/
+submission/apple-redesign/output/

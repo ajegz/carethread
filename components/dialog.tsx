@@ -28,7 +28,7 @@ export function Dialog({ title, description, onClose, children, wide = false }: 
     onCancel={(event) => { event.preventDefault(); onClose(); }}
     onClick={(event) => { if (event.target === event.currentTarget) onClose(); }}>
     <div className="dialog-heading">
-      <div><p className="eyebrow">CARETHREAD WORKSPACE</p><h2 id="dialog-title">{title}</h2></div>
+      <div><h2 id="dialog-title">{title}</h2></div>
       <button className="icon-button" onClick={onClose} aria-label="Close dialog"><X size={20} /></button>
     </div>
     {description && <p className="dialog-description" id="dialog-description">{description}</p>}

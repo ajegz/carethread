@@ -1,0 +1,30 @@
+[
+  {
+    "start": 0.8,
+    "text": "A handoff can change with just one word. Pending becomes clear. The next person walks away with a different understanding."
+  },
+  {
+    "start": 8.6,
+    "text": "Meet CareThread. A voice-guided workspace for practicing clinical handoffs, with responsibility intact."
+  },
+  {
+    "start": 16.6,
+    "text": "Capture the unfinished work. Keep uncertainty visible. When an owner or time is missing, ask for clarification instead of filling in the gap."
+  },
+  {
+    "start": 27.6,
+    "text": "A changed readback needs a pause. The sender clarifies: Doctor Lee owns the review by three p.m. The result is still pending."
+  },
+  {
+    "start": 37.7,
+    "text": "The receiver acknowledges the plan. But accepting responsibility does not complete the work. CareThread keeps those two events separate, with source statements attached."
+  },
+  {
+    "start": 48.6,
+    "text": "Assembly A I powers speech and structured planning. Application rules check sources, roles, and revisions. Eighty automated checks and one synthetic spoken fixture have passed."
+  },
+  {
+    "start": 61.6,
+    "text": "Built for handoff practice with clinical educators. CareThread. The next person knows what is still unfinished."
+  }
+]

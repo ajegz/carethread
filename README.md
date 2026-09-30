@@ -2,15 +2,19 @@
 
 **Every handoff has a next step.** A voice agent that helps unfinished clinical work, responsibility and uncertainty survive a care transition.
 
-**Status:** Working local prototype. Guided handoffs and one synthetic audio fixture through the live transcription, planning, validated board update, and spoken reply pipeline have been verified.
+**Status:** [Live prototype](https://carethread-six.vercel.app). Guided handoffs and one synthetic audio fixture through the live transcription, planning, validated board update, and spoken reply pipeline have been verified.
 
 Built for the AssemblyAI Voice Agent Hackathon. This is a communication simulation using fictional patients. It does not diagnose, prescribe, validate treatment, authenticate clinicians or authorize discharge.
 
 ## Try the workflow
 
-Open the app and choose **Guided replay** for a reproducible fictional handoff. Move through the pending report, changed readback, clarification and acknowledgment. Acknowledging the handoff leaves the clinical work pending. Corrections invalidate earlier acknowledgment.
+Open the app and choose **Guided scenario** for a reproducible fictional handoff. Move through the pending report, changed readback, clarification and acknowledgment. Acknowledging the handoff leaves the clinical work pending. Corrections invalidate earlier acknowledgment.
 
 For **Live voice**, start a microphone session, select Sender or Receiver before speaking, and describe a fictional pending task. The app proposes its owner, time or trigger, conditions and uncertainty for review. Confirm the captured plan, then switch to Receiver for a readback and explicit named acknowledgment. A text-only live session uses the same planning and validation flow without microphone permission. Guided replay is scripted and clearly labeled; it is not a live inference benchmark.
+
+## Presentation and video
+
+[Redesigned submission assets](submission/apple-redesign/README.md) include an editable eight-slide deck, poster and a 72-second React/Remotion film with locally generated narration and original music. See [releases](https://github.com/ajegz/carethread/releases) for downloadable videos.
 
 ## Run locally
 
@@ -75,4 +79,4 @@ These motivate structured handoffs and check-backs. They do not validate this ap
 
 ## License
 
-MIT. Submission assets are in `submission/`. Original UI and workflow implementation; conceptual cover artwork is AI-generated.
+MIT. Submission assets are in `submission/`. Original UI and workflow implementation. The latest poster, interface illustrations, animation and score are generated from code; earlier conceptual cover artwork is AI-generated.
