@@ -9,3 +9,7 @@ Presentation PDF: carethread-redesigned.pdf
 Animated film with original music and local narration: carethread-film.mp4
 
 Use synthetic information only. Live voice requires the host-provided access code. Interface scenes in the media are labeled code-rendered illustrations. No clinical efficacy claim or Apple affiliation.
+
+Latest revised video: carethread-dynamic-no-voiceover.mp4
+48 seconds, 1080p/60fps. Main text, fast transitions, animated UI, original upbeat music and sound effects. No narration.
+Edit kit: carethread-dynamic-edit-kit.zip on the GitHub release.

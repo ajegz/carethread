@@ -1,0 +1,10 @@
+import {bundle} from '@remotion/bundler';
+import {selectComposition,renderMedia,renderStill} from '@remotion/renderer';
+import path from 'node:path';import fs from 'node:fs/promises';
+const root=import.meta.dirname;const out=path.join(root,'out/dynamic');await fs.mkdir(out,{recursive:true});
+const serveUrl=await bundle({entryPoint:path.join(root,'src/dynamic.jsx')});
+const composition=await selectComposition({serveUrl,id:'Dynamic'});
+for(let i=0;i<12;i++)await renderStill({serveUrl,composition,frame:i*240+140,output:path.join(out,`scene-${String(i+1).padStart(2,'0')}.png`),imageFormat:'png'});
+if(process.argv.includes('--stills'))process.exit(0);
+let last=-1;await renderMedia({serveUrl,composition,codec:'h264',outputLocation:path.join(out,'carethread-dynamic-silent.mp4'),crf:18,concurrency:4,onProgress:({progress})=>{const n=Math.floor(progress*10);if(n!==last){console.log(`Rendering ${n*10}%`);last=n;}}});
+console.log('Local 48-second / 60fps render complete.');

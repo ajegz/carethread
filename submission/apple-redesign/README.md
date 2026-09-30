@@ -2,6 +2,10 @@
 
 The app is live at https://carethread-six.vercel.app. Final files are in `final/`:
 
+Latest video revision: `carethread-dynamic-no-voiceover.mp4` — 48 seconds, 1080p/60fps, short main text, continuous animated motion, original 120 BPM music and synchronized sound effects. No narration. The edit kit includes a silent video and separate music/effects tracks for recording your own voiceover. See `video/DYNAMIC-EDIT.md`.
+
+Original delivery:
+
 - `carethread-poster.png`: 1920 × 1080 poster.
 - `carethread-redesigned.pptx`: eight slides with editable text and speaker notes.
 - `carethread-redesigned.pdf`: matching presentation PDF.

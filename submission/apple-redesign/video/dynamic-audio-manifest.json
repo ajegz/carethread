@@ -1,0 +1,84 @@
+{
+  "duration": 48,
+  "bpm": 120,
+  "narration": false,
+  "source": "Original procedural synthesis; no sampled media",
+  "events": [
+    {
+      "time": 4,
+      "type": "transition whoosh and soft impact"
+    },
+    {
+      "time": 8,
+      "type": "transition whoosh and soft impact"
+    },
+    {
+      "time": 12,
+      "type": "transition whoosh and soft impact"
+    },
+    {
+      "time": 16,
+      "type": "transition whoosh and soft impact"
+    },
+    {
+      "time": 20,
+      "type": "transition whoosh and soft impact"
+    },
+    {
+      "time": 24,
+      "type": "transition whoosh and soft impact"
+    },
+    {
+      "time": 28,
+      "type": "transition whoosh and soft impact"
+    },
+    {
+      "time": 32,
+      "type": "transition whoosh and soft impact"
+    },
+    {
+      "time": 36,
+      "type": "transition whoosh and soft impact"
+    },
+    {
+      "time": 40,
+      "type": "transition whoosh and soft impact"
+    },
+    {
+      "time": 44,
+      "type": "transition whoosh and soft impact"
+    },
+    {
+      "time": 8.4,
+      "type": "interface taps"
+    },
+    {
+      "time": 12.4,
+      "type": "interface taps"
+    },
+    {
+      "time": 20.9,
+      "type": "interface taps"
+    },
+    {
+      "time": 29.1,
+      "type": "interface taps"
+    },
+    {
+      "time": 32.5,
+      "type": "interface taps"
+    },
+    {
+      "time": 21.1,
+      "type": "confirmation chime"
+    },
+    {
+      "time": 24.7,
+      "type": "confirmation chime"
+    },
+    {
+      "time": 44.35,
+      "type": "confirmation chime"
+    }
+  ]
+}
