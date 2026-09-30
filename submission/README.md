@@ -1,3 +1,15 @@
+# Current submission handoff
+
+Use [submission-copy.md](submission-copy.md) for the corrected title, descriptions, tags, platform, application URL and current asset links. The app is hosted at https://carethread-six.vercel.app and the public repository is https://github.com/ajegz/carethread.
+
+Use [apple-redesign/README.md](apple-redesign/README.md) for the latest poster and slides. The latest video is `apple-redesign/final/carethread-dynamic-no-voiceover.mp4` (48 seconds, 1080p/60fps, music and effects, no narration). The creator's voiceover and final lablab.ai submission remain outstanding. Arrange private demo-code access for judges. No API key belongs in the submission.
+
+The older ZIPs and narrated videos described below are archived versions. They do not contain the latest dynamic video. Current suite: 80 checks passed.
+
+---
+
+## Archived original delivery notes
+
 # CareThread delivery assets
 
 ## Files for the entry
