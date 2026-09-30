@@ -6,10 +6,10 @@
 
 | Time | Main text / scene |
 |---|---|
-| 00–04 | Your nurse’s shift ends; your scan result has not arrived. |
-| 04–08 | Who makes sure it gets checked? AHRQ context statistic. |
-| 08–12 | Speak naturally. |
-| 12–16 | What needs doing? Who will do it? |
+| 00–04 | Nearly one in three medical errors and adverse events… |
+| 04–08 | …is linked to communication and coordination gaps during care transitions. |
+| 08–12 | Your nurse’s shift ends; the scan result has not arrived. Who follows up? |
+| 12–16 | Meet CareThread. What needs doing? Who will do it? |
 | 16–20 | Did the next nurse hear it correctly? |
 | 20–24 | Name the person. Set the time. |
 | 24–28 | Acknowledged. Still pending. |
@@ -34,13 +34,11 @@ The app states shown are synthetic interface illustrations; the film is not a li
 
 ## Revised creator voiceover
 
-**00–04 seconds:** Your nurse’s shift ends. Your scan result still hasn’t arrived.
+**00–08 seconds:** Nearly one in three medical errors and adverse events is linked to communication and coordination gaps during care transitions.
 
-**04–08 seconds:** Who makes sure the next nurse knows to follow up?
+**08–12 seconds:** Your nurse’s shift ends. Who follows up on that missing result?
 
-**08–12 seconds:** Meet CareThread. AssemblyAI turns spoken handoffs into a shared plan.
-
-**12–16 seconds:** Capture what needs doing, who owns it, and by when.
+**12–16 seconds:** Meet CareThread. AssemblyAI turns spoken handoffs into a shared plan.
 
 **16–20 seconds:** A result still pending gets repeated as normal. Pause.
 
@@ -58,4 +56,4 @@ The app states shown are synthetic interface illustrations; the film is not a li
 
 **44–48 seconds:** CareThread. Know what’s unfinished. Know who’s following up.
 
-The 04–08 second statistic is from [AHRQ’s 2023 research spotlight](https://digital.ahrq.gov/program-overview/research-stories/improving-safety-postoperative-handoff-communication-telemedicine). It motivates the problem and does not establish CareThread efficacy.
+The 00–08 second statistic is from [AHRQ’s 2023 research spotlight](https://digital.ahrq.gov/program-overview/research-stories/improving-safety-postoperative-handoff-communication-telemedicine). It motivates the problem and does not establish CareThread efficacy.

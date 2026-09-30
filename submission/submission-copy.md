@@ -49,9 +49,9 @@ Slides (PDF): https://github.com/ajegz/carethread/releases/download/v0.2.0/caret
 
 Editable slides (PPTX): https://github.com/ajegz/carethread/releases/download/v0.2.0/carethread-redesigned.pptx
 
-Latest video, before creator voiceover: https://github.com/ajegz/carethread/releases/download/v0.2.0/carethread-context-hook-no-voiceover.mp4
+Latest video, before creator voiceover: https://github.com/ajegz/carethread/releases/download/v0.2.0/carethread-statistic-hook-no-voiceover.mp4
 
-Voiceover edit kit: https://github.com/ajegz/carethread/releases/download/v0.2.0/carethread-context-hook-edit-kit.zip
+Voiceover edit kit: https://github.com/ajegz/carethread/releases/download/v0.2.0/carethread-statistic-hook-edit-kit.zip
 
 ## Remaining submission steps
 
